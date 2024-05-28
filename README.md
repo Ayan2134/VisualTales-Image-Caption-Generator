@@ -10,6 +10,10 @@
     - Pandas -  https://www.geeksforgeeks.org/pandas-tutorial/
     - Matplotlib - https://www.w3schools.com/python/matplotlib_intro.asp : Just go over it no need to remember everything
 
+- ### Video Tutorials :
+    - Numpy - https://www.youtube.com/watch?v=QUT1VHiLmmI
+    - Pandas - https://www.youtube.com/playlist?list=PL-osiE80TeTsWmV9i9c58mdDCSskIFdDS
+
 - You can also check W3Schools for all these libraries as it provides guided and normal paced tutorials
 
 - For those interested can read up on Object Oriented Programming([OOPs](https://www.javatpoint.com/python-oops-concepts)) in python

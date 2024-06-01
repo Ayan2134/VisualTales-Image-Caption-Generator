@@ -18,4 +18,8 @@
 
 - For those interested can read up on Object Oriented Programming([OOPs](https://www.javatpoint.com/python-oops-concepts)) in python
 
-- Assignment link for this week will be updated on this repo
+- [Assignment link](Assignment1.ipynb)
+
+- Also if you want to master pandas and numpy, the following resources can be referred:
+  - [Numpy 100 puzzles](https://github.com/rougier/numpy-100)
+  - [Pandas 100 puzzles](https://github.com/ajcr/100-pandas-puzzles) (Recommended)

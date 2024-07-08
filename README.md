@@ -146,19 +146,63 @@ Recurrent Neural Networks (RNNs) are designed to process sequences of data. Lear
 - [**Understanding RNNs - Towards Data Science**](https://towardsdatascience.com/illustrated-guide-to-recurrent-neural-networks-79e5eb8049c9)
 - [**Recurrent Neural Networks (RNN) - Deep Learning Basics**](https://www.youtube.com/watch?v=UNmqTiOnRfg)
 
-## Python Classes
+We will also explore Natural Language Processing (NLP), a field that focuses on the interaction between computers and humans using natural language. Understanding the fundamentals of text processing, language modeling, and sentiment analysis will be crucial for tasks such as chatbots, language translation, and text summarization.
 
-Understanding Python classes is crucial for implementing and organizing code effectively. Classes provide a blueprint for creating objects, bundling data, and functionality together. Here are some resources for a quick introduction:
+## NLP (Natural Language Processing)
+*CONTENTS*
 
-- [**Short Introduction to Python Classes**](https://www.geeksforgeeks.org/python-classes-and-objects/)
-- [**PyTorch Docs - Implementing models using classes**](https://pytorch.org/tutorials/beginner/introyt/modelsyt_tutorial.html)
+- Word Embeddings
+- Text Preprocessing
+- Sentiment Analysis
 
-## Optimizers
+### Word Embeddings
 
-Optimizers are pivotal for training deep learning models. They adjust model parameters during training to minimize the error or loss function. Familiarize yourself with common optimizers like SGD and Adam:
+Neural networks cannot process words directly; they deal only with numerical vectors and their computations. To feed text as input to a neural network, we need to convert it into vector form using word embeddings. Various techniques (TF-IDF, Skip-gram, CBOW) and implementations (Glove, FastText, etc.) exist for this purpose.
 
-- [**PyTorch Docs - Optimizers**](https://pytorch.org/docs/stable/optim.html)
-- [**Explanation of Common Optimizers**](https://towardsdatascience.com/optimizers-for-training-neural-network-59450d71caf6)
-- [**CS231n Material on Optimization**](https://cs231n.github.io/neural-networks-3/#update)
+Read these articles:
 
-These resources will prepare you for the exciting world of sequence processing with RNNs. Stay curious and enjoy your learning journey!
+- [*Brief conceptual overview*](https://www.geeksforgeeks.org/word-embeddings-in-nlp/) (Must read)
+- [*TF-IDF*](https://www.geeksforgeeks.org/understanding-tf-idf-term-frequency-inverse-document-frequency/)
+- [*CBOW*](https://www.geeksforgeeks.org/continuous-bag-of-words-cbow-in-nlp/)
+- [*Skipgram*](https://www.geeksforgeeks.org/implement-your-own-word2vecskip-gram-model-in-python/)
+
+### Text Preprocessing
+
+Text preprocessing in NLP is essential to clean and transform raw text data, addressing issues like irrelevant characters, formatting, and inconsistencies to ensure its suitability for analysis by machine learning models.
+
+*Main Topics to Keep in Mind:*
+
+- Tokenization
+- Lowercase conversion
+- Stopwords removal
+- Stemming
+- Lemmatization
+
+*RESOURCES*
+
+- [*Detailed guide*](https://www.analyticsvidhya.com/blog/2021/06/text-preprocessing-in-nlp-with-python-codes/) (Recommended)
+- [*Youtube Video*](https://www.youtube.com/watch?v=nxhCyeRR75Q), focusing more on post-cleanup steps like tokenization, stemming, and lemmatization
+
+### Sentiment Analysis
+
+Sentiment analysis in NLP involves determining the emotional tone or subjective information expressed in a piece of text, helping identify and quantify sentiments such as positive, negative, or neutral attitudes.
+
+- [Short intro](https://www.geeksforgeeks.org/what-is-sentiment-analysis/)
+
+### NLTK vs spaCy
+
+NLTK is versatile and suitable for learning and experimenting with various NLP concepts, making it popular in academic and research settings. spaCy, with its emphasis on speed and ease of use, is favored in the industry for developing efficient and scalable NLP applications. The choice between NLTK and spaCy depends on the specific needs of a project and the user's goals, whether it be educational exploration or real-world application development.
+
+### TEXT PROCESSING WITH SPACY
+
+*RESOURCES*
+
+- [*Spacy Documentation*](https://spacy.io/usage/spacy-101)
+- [*Spacy Video Tutorial*](https://youtu.be/THduWAnG97k)
+
+*Main Topics to Keep in Mind:*
+
+- Tokenization
+- Parts of Speech Tagging
+- Named Entity Recognition
+
